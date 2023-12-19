@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-python-basic-jmyp
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/push-pyxis-ykjc-tenant/appstudio/devfile-sample-python-basic-jmyp@sha256:65bcfcec7377e405d801814dc2814ed7d037ce652e00e2e8484524c3ccf2c12f
         name: my-python
         ports:
         - containerPort: 8081
